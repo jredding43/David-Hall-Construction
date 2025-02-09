@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Contact from "./components/Contact";
 import Services from "./components/Services";
@@ -23,10 +23,10 @@ const App = () => {
       <div className="main-content">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/projects" element={<Project />} />
-          <Route path="/equipment" element={<Equipment />} />
-          <Route path="/services" element={<Services />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="projects" element={<Project />} />  {/* Removed leading `/` */}
+          <Route path="equipment" element={<Equipment />} /> {/* Removed leading `/` */}
+          <Route path="services" element={<Services />} /> {/* Removed leading `/` */}
+          <Route path="contact" element={<Contact />} /> {/* Removed leading `/` */}
         </Routes>
       </div>
 

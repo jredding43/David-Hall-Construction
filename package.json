@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "description": "David Hall Construction - Excavation Site",
-  "homepage": "https://jredding43.github.io/David-Hall-Construction",
+  "homepage": "/David-Hall-Construction/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

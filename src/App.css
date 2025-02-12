@@ -16,6 +16,20 @@ html, body, #root {
   min-height: 100%;
 }
 
+.contractor-license {
+  font-size: 24px;
+  color:black;
+  background-color: #ffcc00;
+  border-radius: 5px;
+  text-align: center;
+  font: bold;
+}
+
+.contractor-intro i{
+  color: white;
+  font-size: 24px;
+}
+
 
 /* ============= HERO SECTION ============= */
 .hero {

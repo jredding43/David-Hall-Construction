@@ -11,8 +11,7 @@ function HeroSection() {
 
   return (
     <div className="hero">
-      <h1>Hall Construction</h1>
-      <p>Your trusted partner for excavation and machine services in the Stevens and Ferry County.</p>
+      <h1>David Hall Construction LLC</h1>
 
       {/* Subheader */}
       <div className="subheader">

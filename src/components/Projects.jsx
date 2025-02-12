@@ -5,19 +5,13 @@ const projects = [
   {
     title: "Land Clearing for Commercial Development",
     description:
-      "We successfully cleared 50 acres of land for a large commercial project, ensuring proper grading and soil stabilization.",
+      "We successfully cleared 20 acres of land for a large commercial project, ensuring proper grading and soil stabilization.",
     status: "Completed",
   },
   {
     title: "Residential Excavation & Foundation Work",
     description:
       "Excavated and prepared the foundation for multiple residential properties, adhering to strict engineering standards.",
-    status: "In Progress",
-  },
-  {
-    title: "Roadway Preparation & Drainage Installation",
-    description:
-      "Executed site grading and drainage systems to prepare for a 5-mile stretch of new roadway.",
     status: "Completed",
   },
 ];

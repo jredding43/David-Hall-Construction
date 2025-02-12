@@ -5,6 +5,18 @@ import "../App.css";
 const Home = () => {
   return (
     <div className="home-page">
+
+      <div className="contractor-license"> 
+        <div>WA State Contractor: #DAVIDHC847DT</div>
+        </div>
+
+      <div className="contractor-intro">
+        <p><i>With decades of hands-on experience in home construction and site development, I’ve mastered every phase of 
+          the process—from meticulous site preparation and strategic setup to expert excavation and precision grading. 
+          I understand that success starts from the ground up, and my expertise ensures every project is executed with 
+          efficiency, quality, and a commitment to excellence. When it comes to getting the job done right, I bring the
+           knowledge, skill, and attention to detail that set the foundation for long-term success.</i></p>
+      </div>
       {/* What Sets Us Apart */}
       <section className="about-us">
         <h2>Why Choose David Hall Construction?</h2>

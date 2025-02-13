@@ -688,3 +688,117 @@ body {
     max-width: 90%;
   }
 }
+
+
+/* === GLOBAL MOBILE STYLES === */
+@media (max-width: 768px) {
+  html, body {
+    font-size: 14px; /* Slightly smaller text for mobile */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+  }
+
+  #root {
+    width: 100%;
+    padding: 10px;
+  }
+
+  /* HERO SECTION */
+  .hero {
+    height: 250px; /* Reduce height for better mobile fit */
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+  }
+
+  .hero h1 {
+    font-size: 28px; /* Reduce header size for mobile */
+  }
+
+  .hero p {
+    font-size: 16px;
+    padding: 0 10px;
+  }
+
+  /* ABOUT US */
+  .about-us {
+    padding: 20px;
+    margin: 20px auto;
+  }
+
+  .about-item {
+    max-width: 100%; /* Full width on small screens */
+  }
+
+  /* SERVICES GRID */
+  .service-grid {
+    grid-template-columns: 1fr; /* Single-column layout */
+    gap: 20px;
+  }
+
+  /* EQUIPMENT PAGE */
+  .equipment-grid {
+    grid-template-columns: 1fr; /* Stack equipment cards */
+  }
+
+  /* PROJECTS PAGE */
+  .project-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project-item {
+    padding: 15px;
+    text-align: center;
+  }
+
+  /* FAQ SECTION */
+  .faq-section {
+    max-width: 100%;
+    padding: 15px;
+  }
+
+  .faq-question {
+    font-size: 1rem;
+    padding: 8px;
+  }
+
+  /* NAVIGATION */
+  .tab-nav ul {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .tab-item {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+  }
+
+  /* CTA SECTION */
+  .cta-section {
+    padding: 20px;
+  }
+
+  .cta-btn {
+    font-size: 14px;
+    padding: 10px 15px;
+  }
+
+  /* CONTACT FORM */
+  .contact-form {
+    max-width: 100%;
+    padding: 20px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    padding: 12px;
+  }
+
+  /* FOOTER */
+  .footer {
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+  }
+}

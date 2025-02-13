@@ -682,6 +682,64 @@ body {
   color: #007bff;
 }
 
+.popup-message {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.85);
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  z-index: 1000;
+  width: 80%; /* Adjust width for mobile */
+  max-width: 400px; /* Prevent it from being too large on bigger screens */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.popup-message p {
+  font-size: 18px;
+  margin: 0;
+  padding: 10px;
+}
+
+.popup-message button {
+  margin-top: 15px;
+  padding: 10px 15px;
+  background: #ffcc00;
+  color: black;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.popup-message button:hover {
+  background: #ffaa00;
+}
+
+/* 📌 Mobile Optimization */
+@media (max-width: 480px) {
+  .popup-message {
+    width: 90%; 
+    padding: 15px;
+  }
+
+  .popup-message p {
+    font-size: 16px;
+  }
+
+  .popup-message button {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+}
+
+
+
+
 /* === GLOBAL MOBILE STYLES === */
 @media (max-width: 768px) {
   html, body {

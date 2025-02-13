@@ -682,19 +682,12 @@ body {
   color: #007bff;
 }
 
-/* Responsive */
-@media (max-width: 768px) {
-  .projects-intro, .project-list, .faq-section {
-    max-width: 90%;
-  }
-}
-
-
 /* === GLOBAL MOBILE STYLES === */
 @media (max-width: 768px) {
   html, body {
-    font-size: 14px; /* Slightly smaller text for mobile */
-    overflow-x: hidden; /* Prevent horizontal scrolling */
+    width: 100%;
+    font-size: 14px; 
+    overflow-x: hidden; 
   }
 
   #root {
@@ -704,14 +697,14 @@ body {
 
   /* HERO SECTION */
   .hero {
-    height: 250px; /* Reduce height for better mobile fit */
+    height: 250px;
     background-size: cover;
     background-position: center;
     padding: 20px;
   }
 
   .hero h1 {
-    font-size: 28px; /* Reduce header size for mobile */
+    font-size: 28px; 
   }
 
   .hero p {
@@ -762,16 +755,41 @@ body {
     padding: 8px;
   }
 
-  /* NAVIGATION */
+  /* === MOBILE NAVIGATION FIX === */
+  .tab-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
   .tab-nav ul {
+    display: flex;
     flex-direction: column;
+    background: #333; 
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
     padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000; /* Ensure it's on top */
   }
 
   .tab-item {
-    width: 100%;
+    padding: 12px 24px;
     text-align: center;
-    padding: 10px;
+    width: 100%;
+    background: #444;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+
+  .tab-item:hover {
+    background: #007bff;
   }
 
   /* CTA SECTION */

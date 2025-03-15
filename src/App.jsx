@@ -7,7 +7,7 @@ import Equipment from "./components/Equipment";
 import Project from "./components/Projects";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import HeroSection from "./components/HeroSection"; // Import HeroSection
+import HeroSection from "./components/HeroSection"; 
 import "./App.css";
 
 const useGoogleAnalytics = () => {

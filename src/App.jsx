@@ -1,4 +1,5 @@
 import React from "react";
+import { useEffect } from "react";
 import { HashRouter as Router, Routes, Route, useLocation } from "react-router-dom";
 import Home from "./pages/Home";
 import Contact from "./components/Contact";

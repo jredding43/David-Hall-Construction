@@ -844,9 +844,34 @@ body {
     gap: 20px;
   }
 
-  /* EQUIPMENT PAGE */
-  .equipment-grid {
-    grid-template-columns: 1fr; /* Stack equipment cards */
+  .equipment-section {
+    padding: 1rem;
+  }
+
+  .equipment-title {
+    font-size: 1.8rem;
+  }
+
+  .equipment-subtitle {
+    font-size: 1rem;
+  }
+
+  .slide-image {
+    width: 100%;
+    height: 250px;
+  }
+
+  .slide-info h3 {
+    font-size: 1.2rem;
+  }
+
+  .slide-info p {
+    font-size: 0.9rem;
+  }
+
+  .arrow {
+    font-size: 1.5rem;
+    padding: 0.3rem 0.6rem;
   }
 
   /* PROJECTS PAGE */
